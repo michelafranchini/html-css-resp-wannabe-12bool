@@ -1,9 +1,3 @@
-.logo200 {
-    height: 200px;
-}
-.logo250 {
-    height: 250px;
-}
 .bg-blue {
     padding: 30px;
     border-radius: 50%;
@@ -17,13 +11,43 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+    .bg-yellow {
+        background-color: #f2f2cd;
+        padding: 10px;
+    }
+    h2 {
+        margin-top: 15px;
+    }
+    .logo200 {
+        height: 120px;
+    }
+    .logo250 {
+        height: 120px;
+    }
     
+    #where p,
+    #how p {
+        padding-bottom: 20px;
+    }
+    #why img {
+        margin-top: 30px;
+    }
+    hr {
+        border: 1px solid black;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
 
     h3 {
         padding: 20px;
+    }
+    .logo200 {
+        height: 200px;
+    }
+    .logo250 {
+        height: 250px;
     }
     .bg-grey {
         background-color: #f9f9f9;
