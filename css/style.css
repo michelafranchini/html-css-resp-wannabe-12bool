@@ -1,0 +1,13 @@
+.logo200 {
+    height: 200px;
+}
+
+.bg-blue {
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #428bca;
+}
+
+.container.bg-grey {
+    background-color: red;
+}
