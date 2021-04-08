@@ -1,13 +1,46 @@
 .logo200 {
     height: 200px;
 }
-
+.logo250 {
+    height: 250px;
+}
 .bg-blue {
     padding: 30px;
     border-radius: 50%;
     background-color: #428bca;
 }
 
-.container.bg-grey {
-    background-color: red;
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    h3 {
+        padding: 20px;
+    }
+    .bg-grey {
+        background-color: #f9f9f9;
+    }
+    #where h2 {
+        padding-top: 120px;
+    }
+    #how {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    #why p {
+        padding-bottom: 10px;
+    }
+    #why img {
+        margin-top: 60px;
+    }
+
 }
