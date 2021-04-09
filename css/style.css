@@ -4,6 +4,9 @@
     background-color: #428bca;
 }
 
+body {
+    text-align: center;
+}
 
 h2 {
     font-size: 30px;
@@ -18,9 +21,7 @@ h2 {
     h2 {
         margin-top: 15px;
     }
-    .logo200 {
-        height: 120px;
-    }
+    .logo200,
     .logo250 {
         height: 120px;
     }
@@ -36,6 +37,35 @@ h2 {
         border: 1px solid black;
     }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    h2 {
+        padding-top: 20px;
+    }
+    .logo200, 
+    .logo250{
+        height: 180px;
+    }
+    #why.bg-grey {
+        background-color: #f9f9f9;
+    }
+    #where {
+        background-color: #f2f2cd;
+    }
+    #where div,
+    #how div,
+    #why div {
+        padding: 20px;
+    }
+
+    #why img {
+        margin-top: 30px;
+    }
+    #why p {
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 992px) {
